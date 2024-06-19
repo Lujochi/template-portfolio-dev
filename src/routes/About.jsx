@@ -1,5 +1,11 @@
+import PageTransition from "../components/PageTransition";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <PageTransition>
+      <h1>a</h1>
+    </PageTransition>
+  );
 };
 
 export default About;
