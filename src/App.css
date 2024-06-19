@@ -1,0 +1,131 @@
+/* Conteudo principal */
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 200px;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.main-txt {
+  color: var(--secondary-white);
+}
+
+.main-txt h1 {
+  font-size: 62px;
+  font-weight: 400;
+}
+
+.main-txt h2,
+.main-txt h2 > span {
+  color: var(--secondary-cobalt-blue);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.main-txt span {
+  font-size: 18px;
+  margin-left: 7px;
+}
+
+/* Efeito de piscar barra de digitação */
+#cursor {
+  position: relative;
+  left: -25px;
+  top: -6px;
+  margin: 0;
+  animation: blink-animation 1s step-end infinite;
+}
+
+@keyframes blink-animation {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: var(--secondary-cobalt-blue);
+  }
+}
+
+.lines-of-code {
+  display: flex;
+  flex-direction: column;
+  line-height: 32px;
+  color: var(--secondary-white);
+}
+
+.lines-of-code span {
+  color: var(--secondary-light-grey);
+}
+
+.lines-of-code p > span:first-child {
+  color: var(--secondary-cobalt-blue);
+}
+
+.lines-of-code a {
+  color: var(--code-light-pink);
+  transition: 0.2s;
+}
+
+.lines-of-code a:hover {
+  text-decoration: underline;
+}
+
+.lines-of-code p > span:nth-child(2) {
+  color: var(--code-green-water);
+}
+
+.img-logo img:first-child {
+  position: relative;
+  max-width: 300px;
+  border: 1px solid var(--primary-black);
+  border-radius: 50%;
+  margin-top: 7px;
+  z-index: 1;
+}
+
+.img-logo i {
+  position: absolute;
+  color: var(--pin-green);
+  box-shadow: 1px 1px 4px var(--shadow-black);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#i1 {
+  margin-top: -15px;
+  margin-left: 70px;
+}
+
+#i2 {
+  margin-top: -15px;
+  margin-left: -390px;
+}
+
+#i3 {
+  margin-top: 413px;
+  margin-left: 70px;
+  color: var(--pin-purple);
+}
+
+#i4 {
+  margin-top: 413px;
+  margin-left: -390px;
+  color: var(--pin-green-blue);
+}
+
+.img-logo img:last-child {
+  position: absolute;
+  margin-top: -33px;
+  margin-left: -408px;
+  box-shadow: 140px 140px 200px -130px var(--shadow-purple),
+    -120px -180px 200px -130px var(--shadow-blue);
+  border: 1px solid var(--border-black-grey);
+  border-radius: 8px;
+}

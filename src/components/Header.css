@@ -1,0 +1,35 @@
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header label {
+  text-align: center;
+  flex-grow: 1;
+  border-bottom: 1px solid var(--border-grey);
+  border-right: 1px solid var(--border-grey);
+  padding: 18px;
+}
+
+.nav-button {
+  padding: 18px;
+  border: 1px solid var(--border-grey);
+  transition: 0.2s;
+}
+
+.nav-button:hover {
+  color: var(--secondary-white);
+}
+
+.nav-header span {
+  flex-grow: 4;
+  padding: 18;
+  border-bottom: 1px solid var(--border-grey);
+  border-right: 1px solid var(--border-grey);
+}
+
+.active {
+  border-right: 1px solid var(--border-grey);
+  border-bottom: 3px solid var(--code-orange-ochre);
+  color: var(--secondary-white);
+}
