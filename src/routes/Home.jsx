@@ -85,12 +85,12 @@ const Home = () => {
         <ImgTransition>
           <div className="img-logo">
             <picture>
-              <img src="./assets/perfil.jpg" alt="Logo Perfil" />
+              <img src="/src/assets/perfil.jpg" alt="Logo Perfil" />
               <i className="ri-close-circle-fill" id="i1"></i>
               <i className="ri-close-circle-fill" id="i2"></i>
               <i className="ri-close-circle-fill" id="i3"></i>
               <i className="ri-close-circle-fill" id="i4"></i>
-              <img src="./assets/Background.png" alt="Background" />
+              <img src="/src/assets/Background.png" alt="Background" />
             </picture>
           </div>
         </ImgTransition>
