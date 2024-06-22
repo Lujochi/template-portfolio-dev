@@ -51,6 +51,7 @@
 
 .lines-of-code a {
   color: var(--code-light-pink);
+  margin-left: 10px;
   transition: 0.2s;
 }
 

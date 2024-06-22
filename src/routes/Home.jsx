@@ -75,7 +75,7 @@ const Home = () => {
                   <span>const </span>
                   <span>githubLink </span>=
                   <a href="https://github.com/Lujochi" target="_blank">
-                    {" https://github.com/Lujochi"}
+                    {"https://github.com/Lujochi"}
                   </a>
                 </p>
               </div>
