@@ -18,17 +18,17 @@ const NavHeader = () => {
             </label>
             <ul>
               <li>
-                <NavLink exact="true" to="/" className="btn-Links">
+                <NavLink exact="true" to="/" className="btn-Links home">
                   _home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" className="btn-Links">
+                <NavLink to="/about" className="btn-Links about">
                   _about
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/projects" className="btn-Links">
+                <NavLink to="/projects" className="btn-Links projects">
                   _projects
                 </NavLink>
               </li>

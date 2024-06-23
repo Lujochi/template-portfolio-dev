@@ -37,3 +37,8 @@
 .header .header-container .btn-Links.contact {
   border-right: none;
 }
+
+.active {
+  border-bottom: 3px solid var(--Orange-ochre) !important;
+  color: var(--White) !important;
+}
