@@ -1,52 +1,33 @@
 :root {
   /* COLORS */
-  --primary-black: #01080e;
-  --primary-blue-oxford: #011627;
-  --primary-blue-oxford-dark: #011221;
+  --Black: #01080e;
+  --BlueOxford: #011627;
+  --BlueOxford-dark: #011221;
+  --LightGrey: #607b96;
+  --SeaGreen: #3c9d93;
+  --CobaltBlue: #4d5bce;
+  --White: #ffffff;
+  --Grey: #e5e9f0;
 
-  --secondary-light-grey: #607b96;
-  --secondary-sea-green: #3c9d93;
-  --secondary-cobalt-blue: #4d5bce;
-  --secondary-white: #ffffff;
+  --Orange-ochre: #fea55f;
+  --Green-water: #43d9ad;
+  --LightPink: #e99287;
+  --Purple: #c98bdf;
 
-  --code-orange-ochre: #fea55f;
-  --code-green-water: #43d9ad;
-  --code-light-pink: #e99287;
-  --code-purple: #c98bdf;
+  --Dark-gray: #1e2d3d;
 
-  --lines-dark-gray: #1e2d3d;
-
-  --gradients-blue: #4d5bce;
-  --gradients-green: #43d9ad;
+  --Gradients-blue: #4d5bce;
+  --Gradients-green: #43d9ad;
 
   --border-grey: #607b9666;
-  --border-black-grey: #00000017;
-
-  --shadow-blue: #43d9adbf;
-  --shadow-purple: #4d5bce;
-  --shadow-black: #24242475;
-
-  --pin-green: #266b64;
-  --pin-purple: #2a3f6b;
-  --pin-green-blue: #25524d;
 
   /* Font */
-  --Code-font: "Fira Code", Helvetica, Sans-serif;
+  --CodeFont: "Fira Code", Helvetica, Sans-serif;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: var(--Code-font);
-}
-
-body {
-  background-color: var(--primary-blue-oxford-dark);
-  color: var(--secondary-light-grey);
-}
-
-a {
-  text-decoration: none;
-  color: var(--secondary-light-grey);
+  font-family: var(--CodeFont);
 }

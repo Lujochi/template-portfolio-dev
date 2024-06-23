@@ -1,22 +1,19 @@
-import "./App.css";
-
 import { Outlet } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import NavHeader from "./components/Header/NavHeader";
+import NavFooter from "./components/Footer/NavFooter";
 
-import { AnimatePresence } from "framer-motion";
+import "./App.css";
 
 function App() {
   return (
-    <AnimatePresence>
-      <div className="App">
-        <Navbar />
-        <Outlet />
-        <Footer />
-      </div>
-    </AnimatePresence>
+    <div className="App">
+      <NavHeader />
+      <Outlet />
+      <NavFooter />
+    </div>
   );
 }
 
 export default App;
+ 

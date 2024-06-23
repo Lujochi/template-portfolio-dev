@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+import "./Responsive.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -10,7 +11,7 @@ import About from "./routes/About.jsx";
 import Projets from "./routes/Projects.jsx";
 import Contact from "./routes/Contact.jsx";
 import ErrorPage from "./routes/ErrorPage.jsx";
-import ContactDatails from "./routes/ContactDatails.jsx";
+import ContactDatails from "./routes/ContactDetails.jsx";
 
 const router = createBrowserRouter([
   {
