@@ -4,10 +4,7 @@
   align-items: center;
   color: var(--LightGrey);
   border-top: 1px solid var(--border-grey);
-  position: fixed;
-  bottom: 2px;
-  right: 0;
-  left: 0;
+  margin-bottom: 2px;
 }
 
 .footer a {

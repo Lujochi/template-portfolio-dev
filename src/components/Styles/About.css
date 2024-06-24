@@ -1,0 +1,39 @@
+.main-container-about {
+  display: flex;
+  max-height: 800px;
+}
+
+/* Nav bar */
+.Navbar-about {
+  width: 70px;
+  height: 800px;
+  border-right: 1px solid var(--border-grey);
+}
+
+.Navbar-about ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.Navbar-about ul li {
+  margin-top: 20px;
+}
+
+.Navbar-about ul li a {
+  font-size: 22px;
+  color: var(--LightGrey);
+  opacity: 0.6;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.Navbar-about ul li a:hover {
+  opacity: 0.8;
+  color: var(--White);
+}
+
+/* menu */
+

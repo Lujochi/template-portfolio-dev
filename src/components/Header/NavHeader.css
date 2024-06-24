@@ -1,8 +1,4 @@
 .header .header-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +21,6 @@
   padding: 18px 32px;
   border-right: 1px solid var(--border-grey);
   border-left: 1px solid var(--border-grey);
-
   text-decoration: none;
   transition: 0.2s;
 }

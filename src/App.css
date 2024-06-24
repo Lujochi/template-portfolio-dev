@@ -1,9 +1,15 @@
-.main-container {
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: var(--BlueOxford);
+}
+
+.main-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 100vh;
+  flex: 2;
 }
 
 .text-container {
