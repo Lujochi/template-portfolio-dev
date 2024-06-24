@@ -150,9 +150,6 @@ const About = () => {
             <p>{"*/"}</p>
           </div>
         </div>
-        <div className="side-scroll-bar">
-          {/* Uma possivel atualização futura, adicionar a barra lateral de scroll */}
-        </div>
       </div>
       <div className="code-snippet-container">
         <div className="empty-space">

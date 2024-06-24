@@ -201,10 +201,21 @@
   display: flex;
   gap: 40px;
   color: var(--LightGrey);
-  width: 674px;
+  width: 700px;
   height: 800px;
-  border-right: 1px solid var(--border-grey);
+  overflow: hidden;
+  overflow-y: scroll;
 }
+
+.info::-webkit-scrollbar {
+  width: 26px;
+  border-left: 1px solid var(--border-grey);
+}
+
+.info::-webkit-scrollbar-thumb {
+  background-color: var(--LightGrey);
+}
+
 .list-numbers {
   text-align: end;
   width: 60px;
