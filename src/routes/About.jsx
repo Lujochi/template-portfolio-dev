@@ -91,10 +91,12 @@ const About = () => {
           {/* ---------------------------------------------- */}
         </div>
         <div className="contacts-container-about">
-          <a href="#">
-            <i className="ri-arrow-down-s-fill"></i>
-            contacts
-          </a>
+          <div className="box-contacts">
+            <a href="#">
+              <i className="ri-arrow-down-s-fill"></i>
+              contacts
+            </a>
+          </div>
           {/* Aqui vai sair, presente somente para estilizar */}
           <div className="contacts-content">
             <span>

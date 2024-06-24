@@ -50,13 +50,13 @@
   border-bottom: 1px solid var(--border-grey);
 }
 
-.box-personal-info a {
+.box-personal-info a,
+.box-contacts a {
   display: flex;
   align-items: center;
   gap: 11px;
   text-decoration: none;
   color: var(--White);
-  transition: 0.2s;
 }
 
 .personal-content {
@@ -135,4 +135,27 @@
 
 .education-content .devquest {
   margin-bottom: 8px;
+}
+
+.Education {
+  margin-bottom: 20px;
+}
+
+.box-contacts {
+  padding: 10px 84px 10px 34px;
+  border-bottom: 1px solid var(--border-grey);
+  border-top: 1px solid var(--border-grey);
+}
+
+.contacts-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--LightGrey);
+  margin-left: 34px;
+  margin-top: 20px;
+}
+
+.contacts-content i {
+  margin-right: 11px;
 }
