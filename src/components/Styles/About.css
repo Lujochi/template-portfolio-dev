@@ -62,26 +62,34 @@
 .personal-content {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   margin-top: 20px;
   margin-left: 34px;
 }
 
-.Bio {
+.Bio,
+.Interests,
+.Education {
   display: flex;
   flex-direction: column;
 }
 
-.folder-bio {
-  margin-bottom: 10px;
+.folder-bio,
+.folder-interests,
+.folder-education {
+  margin-bottom: 8px;
 }
 
-.folder-bio a {
+.folder-bio a,
+.folder-interests a,
+.folder-education a {
   text-decoration: none;
   color: var(--LightGrey);
 }
 
-.folder-bio a i:first-child {
+.folder-bio a i:first-child,
+.folder-interests a i:first-child,
+.folder-education a i:first-child {
   margin-right: 11px;
   font-size: 20px;
 }
@@ -91,16 +99,40 @@
   margin-right: 11px;
 }
 
-.bio-content {
-  margin-left: 31px;
+.bio-content,
+.interests-content,
+.education-content {
+  margin-left: 40px;
 }
 
-.bio-content a {
+.bio-content a,
+.interests-content a,
+.education-content a {
   text-decoration: none;
   color: var(--LightGrey);
 }
 
-.bio-content a i {
+.bio-content a i,
+.interests-content a i {
   color: var(--LightBlue);
   margin-right: 11px;
+}
+
+.folder-interests a i:last-child {
+  margin-right: 11px;
+  color: var(--Gradients-green);
+}
+
+.folder-education a i:last-child {
+  margin-right: 11px;
+  color: var(--Folder-blue);
+}
+
+.education-content a i {
+  margin-right: 11px;
+  color: var(--Cement-gray);
+}
+
+.education-content .devquest {
+  margin-bottom: 8px;
 }

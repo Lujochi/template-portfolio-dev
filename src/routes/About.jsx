@@ -44,37 +44,48 @@ const About = () => {
               </div>
               <div className="bio-content">
                 <a href="#">
-                  <i className="ri-file-user-fill"></i>
-                  About.txt
+                  <i className="ri-file-text-line"></i>
+                  AboutMe.txt
                 </a>
               </div>
             </div>
-            <a href="#">
-              <i className="ri-arrow-right-s-line"></i>
-              <i className="ri-folder-3-fill"></i>
-              interests
-            </a>
-            <div className="interests content">
-              <a href="#">
-                <i className="ri-file-info-fill"></i>
-              </a>
+            <div className="Interests">
+              <div className="folder-interests">
+                <a href="#">
+                  <i className="ri-arrow-right-s-line"></i>
+                  <i className="ri-folder-3-fill"></i>
+                  interests
+                </a>
+              </div>
+              <div className="interests-content">
+                <a href="#">
+                  <i className="ri-file-text-line"></i>
+                  Interests.txt
+                </a>
+              </div>
             </div>
-            <a href="#">
-              <i className="ri-arrow-right-s-line"></i>
-              <i className="ri-folder-3-fill"></i>
-              education
-            </a>
-            <div className="education-content">
-              <a href="#">
-                <span>
-                  <i className="ri-school-fill"></i>
-                  DevQuest
-                </span>
-                <span>
-                  <i className="ri-school-fill"></i>
-                  Udemy
-                </span>
-              </a>
+            <div className="Education">
+              <div className="folder-education">
+                <a href="#">
+                  <i className="ri-arrow-right-s-line"></i>
+                  <i className="ri-folder-3-fill"></i>
+                  education
+                </a>
+              </div>
+              <div className="education-content">
+                <div className="devquest">
+                  <a href="#">
+                    <i className="ri-school-fill"></i>
+                    DevQuest.exe
+                  </a>
+                </div>
+                <div className="udemy">
+                  <a href="#">
+                    <i className="ri-school-fill"></i>
+                    Udemy.exe
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           {/* ---------------------------------------------- */}
