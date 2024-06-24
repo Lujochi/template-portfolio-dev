@@ -26,10 +26,12 @@ const About = () => {
       </nav>
       <div className="menu-container-about">
         <div className="personal-info-container">
-          <a href="#">
-            <i className="ri-arrow-down-s-fill"></i>
-            personal-info
-          </a>
+          <div className="box-personal-info">
+            <a href="#">
+              <i className="ri-arrow-down-s-fill"></i>
+              personal-info
+            </a>
+          </div>
           {/* Aqui vai sair, presente somente para estilizar */}
           <div className="bio-container">
             <a href="#">
