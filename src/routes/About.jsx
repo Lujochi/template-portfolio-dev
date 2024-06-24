@@ -119,7 +119,6 @@ const About = () => {
           <div className="space-window"></div>
         </div>
         <div className="info">
-          {/*Display grid aqui*/}
           <div className="list-numbers">
             <p>1</p>
             <p>2</p>
@@ -151,8 +150,9 @@ const About = () => {
             <p>{"*/"}</p>
           </div>
         </div>
-        {/* Abaixo esta a div da barra scroll lateral */}
-        <div className="side-scroll-bar"></div>
+        <div className="side-scroll-bar">
+          {/* Uma possivel atualização futura, adicionar a barra lateral de scroll */}
+        </div>
       </div>
       <div className="code-snippet-container">
         <div className="empty-space">

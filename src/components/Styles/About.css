@@ -196,3 +196,24 @@
   width: 480px;
   border-bottom: 1px solid var(--border-grey);
 }
+
+.info {
+  display: flex;
+  gap: 40px;
+  color: var(--LightGrey);
+  width: 674px;
+  height: 800px;
+  border-right: 1px solid var(--border-grey);
+}
+.list-numbers {
+  text-align: end;
+  width: 60px;
+}
+
+.list-numbers,
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 18px;
+}
