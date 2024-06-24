@@ -33,17 +33,21 @@ const About = () => {
             </a>
           </div>
           {/* Aqui vai sair, presente somente para estilizar */}
-          <div className="bio-container">
-            <a href="#">
-              <i className="ri-arrow-right-s-line"></i>
-              <i className="ri-folder-3-fill"></i>
-              bio
-            </a>
-            <div className="bio-content">
-              <a href="#">
-                <i className="ri-file-user-fill"></i>
-                about-me
-              </a>
+          <div className="personal-content">
+            <div className="Bio">
+              <div className="folder-bio">
+                <a href="#">
+                  <i className="ri-arrow-right-s-line"></i>
+                  <i className="ri-folder-3-fill"></i>
+                  bio
+                </a>
+              </div>
+              <div className="bio-content">
+                <a href="#">
+                  <i className="ri-file-user-fill"></i>
+                  About.txt
+                </a>
+              </div>
             </div>
             <a href="#">
               <i className="ri-arrow-right-s-line"></i>
