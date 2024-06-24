@@ -159,3 +159,40 @@
 .contacts-content i {
   margin-right: 11px;
 }
+
+.window-content {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 800px;
+  border-right: 1px solid var(--border-grey);
+}
+
+.open-window-container {
+  display: flex;
+}
+
+.open-window {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 15px;
+  border-bottom: 1px solid var(--border-grey);
+  border-right: 1px solid var(--border-grey);
+  width: 220px;
+  color: var(--LightGrey);
+}
+
+.open-window a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: var(--LightGrey);
+}
+
+.open-window a:hover {
+  color: var(--White);
+}
+
+.space-window {
+  width: 480px;
+  border-bottom: 1px solid var(--border-grey);
+}

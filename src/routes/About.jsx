@@ -88,7 +88,6 @@ const About = () => {
               </div>
             </div>
           </div>
-          {/* ---------------------------------------------- */}
         </div>
         <div className="contacts-container-about">
           <div className="box-contacts">
@@ -97,7 +96,6 @@ const About = () => {
               contacts
             </a>
           </div>
-          {/* Aqui vai sair, presente somente para estilizar */}
           <div className="contacts-content">
             <span>
               <i className="ri-mail-fill"></i>
@@ -108,19 +106,17 @@ const About = () => {
               {"(47)"}99165-3010
             </span>
           </div>
-          {/* ---------------------------------------------- */}
         </div>
       </div>
       <div className="window-content">
         <div className="open-window-container">
-          {/* Aqui vai sair, presente somente para estilizar */}
           <div className="open-window">
             <p>personal-info</p>
             <a href="#">
               <i className="ri-close-fill"></i>
             </a>
           </div>
-          {/* ---------------------------------------------- */}
+          <div className="space-window"></div>
         </div>
         <div className="info">
           {/*Display grid aqui*/}
