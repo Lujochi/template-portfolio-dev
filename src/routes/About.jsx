@@ -152,42 +152,40 @@ const About = () => {
         </div>
       </div>
       <div className="code-snippet-container">
-        <div className="empty-space">
-          <span>Aqui vai um espaço</span>
-        </div>
-        <p>{"// Code snippet showcase:"}</p>
-        <div className="box-control-snippet">
-          <div className="user-data">
-            <div className="user">
-              <img src="#" alt="Logo" />
-              <div className="user-txt">
-                <p>@Lujochi</p>
-                <p>Created 5 months ago</p>
+        <div className="empty-space"></div>
+        <div className="box-content-snippet-container">
+          <div className="box-control-snippet">
+            <p id="sub-title-showCase">{"// Code snippet showcase:"}</p>
+            <div className="user-data">
+              <div className="user">
+                <img src="../src/assets/images/perfil.jpg" alt="Logo" />
+                <div className="user-txt">
+                  <p>@Lujochi</p>
+                  <p>Created 5 months ago</p>
+                </div>
               </div>
-            </div>
-            <div className="details-and-stars">
-              <span>
+              <div className="details-and-stars">
                 <a href="#">
                   <i className="ri-chat-smile-3-line"></i>
                   details
                 </a>
-              </span>
-              <span>
-                <i className="ri-star-s-fill"></i>
-                10 stars
-              </span>
+                <a href="#">
+                  <i className="ri-star-s-fill"></i>
+                  10 stars
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="snippet-box">
-            <p>{/* Aqui vai um snippet */}</p>
-          </div>
-          <div className="details-box">
-            <div className="msg-details">
-              <p>Aqui vai uma detalhamento do codigo</p>
+            <div className="snippet-box">
+              
             </div>
-            <a href="#">
-              <i className="ri-close-fill"></i>
-            </a>
+            <div className="details-box">
+              <div className="msg-details">
+                <p>Aqui vai uma detalhamento do codigo</p>
+              </div>
+              <a href="#">
+                <i className="ri-close-fill"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
