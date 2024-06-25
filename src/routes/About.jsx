@@ -176,11 +176,18 @@ const About = () => {
               </div>
             </div>
             <div className="snippet-box">
-              
+              <div className="box-code">
+                <img src="/src/assets/images/snippet01.png" alt="snippet" />
+              </div>
             </div>
             <div className="details-box">
               <div className="msg-details">
-                <p>Aqui vai uma detalhamento do codigo</p>
+                <p>
+                  {"->"} Uma função que cria um efeito que simula a digitação de
+                  um texto desejado, onde a função vai pegar o texto quebra-lo
+                  em caracteres e colocar na tela do usuário caractere por
+                  caractere com intervalos de 150ms.
+                </p>
               </div>
               <a href="#">
                 <i className="ri-close-fill"></i>
