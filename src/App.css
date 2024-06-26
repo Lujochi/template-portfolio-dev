@@ -77,3 +77,49 @@
   border: 1px solid var(--Black);
   border-radius: 50%;
 }
+
+@media (max-width: 1024px) {
+  .title-container h1 {
+    font-size: 42px;
+  }
+
+  .img-container img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-container img {
+    display: none;
+  }
+
+  .text-container {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 425px) {
+  .title-container p {
+    font-size: 16px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+  }
+
+  .title-container h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .title-container h2 {
+    font-size: 22px;
+  }
+
+  .description-container {
+    line-height: 24px;
+    font-size: 12px;
+  }
+
+  .text-container {
+    margin-left: 20px;
+  }
+}

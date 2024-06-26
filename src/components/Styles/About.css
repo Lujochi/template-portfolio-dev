@@ -1,13 +1,14 @@
 .main-container-about {
   display: flex;
-  max-height: 800px;
 }
 
 /* Nav bar */
+.nav-container-about {
+  border-right: 1px solid var(--border-grey);
+}
+
 .Navbar-about {
   width: 70px;
-  height: 800px;
-  border-right: 1px solid var(--border-grey);
 }
 
 .Navbar-about ul {
@@ -40,8 +41,7 @@
 .menu-container-about {
   display: flex;
   flex-direction: column;
-  width: 290px;
-  height: 800px;
+  flex: 1;
   border-right: 1px solid var(--border-grey);
 }
 
